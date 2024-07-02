@@ -58,7 +58,7 @@ Upon successful completion of the backup process, an email notification will be 
 
 To track and manage backups, create the following tables in your database:
 
-## sql
+```sql
 CREATE TABLE Servers (
     ServerID INT PRIMARY KEY AUTO_INCREMENT,
     ServerName VARCHAR(50) UNIQUE,
